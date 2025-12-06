@@ -244,6 +244,7 @@ C-Utilites-01/
 │    ├── utilities.c
 │    └── test.json
 ├── vbc/
+│    ├── vbc_v2.c
 │    └── vbc.c
 └── README.md
 ```
@@ -272,6 +273,8 @@ C-Utilites-01/
    gcc -Wall -Wextra -Werror argo.c utilities.c -o argo
    cd ../vbc
    gcc -Wall -Wextra -Werror vbc.c -o vbc
+   OR
+   gcc -Wall -Wextra -Werror vbc_v2.c -o vbc
    ```
 
 ## Usage
